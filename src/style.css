@@ -1,0 +1,47 @@
+/* div{
+    border:solid red;
+    width: 98px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+   
+    
+    
+}
+.divs{
+    /* background-color: blue; 
+    width: 30px;
+    height:30px;
+
+    border:1px dotted blue;
+} */
+
+
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
